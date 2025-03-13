@@ -22,7 +22,7 @@ First released in 2009 and updated regularly with new releases, MongoDB is a dat
 
 So what exactly do collections and documents look like? Well, take a look over this visualization of the difference between a MongoDB document database and a relational database (e.g., PostgreSQL):
 
-[](./ART_1855_Intro_to_MongoDB_Article_Document_vs_Relational_Database-text-added.svg)
+![](./ART_1855_Intro_to_MongoDB_Article_Document_vs_Relational_Database-text-added.svg)
 
 
 In the above image, the customer information stored in the relational database is stored row by row, inside a table, with each customer possessing the same fields (name, address, phone number). In contrast, the document database has individual documents for each customer. Each of the documents contains a set of fields that may or may not be unique to that customer. Documents are stored inside of a collection.
